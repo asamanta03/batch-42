@@ -31,8 +31,8 @@ metadata:
   521  kubectl get no
   522  kubectl get po
   523  kubectl get svc
-  524  kubectl get svc -w
+  524  kubectl get svc -w (used to watch Services in real time)
   525  kubectl get po
   526  kubectl get no
-  527  kubectl get po -o wide
+  527  kubectl get po -o wide (used to list Pods with additional details. po = pods -o wide = show extra information (wide output format)
   528  history
