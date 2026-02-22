@@ -1,0 +1,35 @@
+9  kubectl get po  -o wide
+  500  history
+  501  gcloud container clusters get-credentials day4 --region asia-east1 --project march22paid
+  502  kubectl get secrets
+  503  kubectl create secret generic db-secret   --from-literal=DB_USER=admin   --from-literal=DB_PASSWORD=Admin@123
+  504  kubectl get secrets
+  505  kubectl describe secret db-secret
+  506  kubectl get configmaps
+  507  kubectl get cm
+  508  kubectl create configmap app-config   --from-literal=APP_ENV=production   --from-literal=APP_PORT=8080
+  509  kubectl get cm
+  510  kubectl get secrets
+  511  kubectl edit secrets db-secret
+  512  kubectl get hpa
+  513  cd batch-42
+  514  ls
+  515  vi nginx-deployment.yaml
+  516  kubectl apply -f nginx-deployment.yaml
+  517  kubectl get po
+  518  kubectl describe deployment nginx-deployment
+  519  kubectl expose deployment nginx-deployment --type=LoadBalancer --port=80 --name=nginx-service
+  520  kubectl get svc
+  521  kubectl get apiservices | grep metrics
+  522  kubectl get hpa
+  523  kubectl autoscale deployment nginx-deployment --cpu-percent=2 --min=2 --max=5
+  524  kubectl get hpa
+  525  kubectl get po
+  526  kubectl get hpa
+  527  kubectl get po -w
+  528  kubectl get hpa
+  529  kubectl get po -w
+  530  kubectl get hpa
+  531  kubectl get po
+  532  kubectl delete hpa nginx-deployment
+  533  history
