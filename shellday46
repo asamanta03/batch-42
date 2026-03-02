@@ -1,1 +1,11 @@
+Example 1
 
+#!/bin/bash  
+echo "This is a shell script written by harsh"  
+ls
+echo "I am done running ls"  
+SOMEVAR='text stuff this is my first class'  
+echo "$SOMEVAR"
+
+
+----------------------------------
