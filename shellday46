@@ -104,3 +104,21 @@ echo ""
 
 echo -e "${GREEN}✅ System information collected successfully.${NC}"
 echo -e "${CYAN}==============================================${NC}"
+
+
+
+----------------
+
+
+
+Example 4  of Arithmetic operations in linux 
+
+#!/bin/bash
+
+# Add two numeric value
+((sum=10+5))
+#Print the result
+echo $sum
+
+
+Run with                            ./ 
