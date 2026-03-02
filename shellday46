@@ -19,3 +19,30 @@ Example 2
 echo "Hello there i am sagar speking"
 echo "My name is $(whoami)"
 echo "Nice to meet you batch42 student's"
+
+--------------
+
+Monitoring script
+
+hostname
+hostname-i
+ps
+free
+df -h
+
+
+
+Example Monitoring script  
+
+#!/bin/bash  
+echo "This is a shell script by himanshu"
+echo "the hostname of this gcp project swain machine is "
+hostname 
+echo "the IP  of this gcp project swain machine is "
+hostname -i
+ps
+echo "memory used in the machine"
+free
+echo "disk used in the machine"
+df -h
+echo "the above information from the machine"  
